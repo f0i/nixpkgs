@@ -2,13 +2,13 @@
 
 stdenv.mkDerivation rec {
   pname = "pc-ble-driver";
-  version = "4.1.1";
+  version = "4.1.4";
 
   src = fetchFromGitHub {
     owner = "NordicSemiconductor";
     repo = "pc-ble-driver";
     rev = "v${version}";
-    sha256 = "1llhkpbdbsq9d91m873vc96bprkgpb5wsm5fgs1qhzdikdhg077q";
+    sha256 = "1609x17sbfi668jfwyvnfk9z29w6cgzvgv67xcpvpx5jv0czpcdj";
   };
 
   cmakeFlags = [
